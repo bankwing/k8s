@@ -5,14 +5,14 @@ kind: Deployment
 metadata:
   name: nginx-deployment
 spec:
-    replicas: 1
+  replicas: 1
   template:
     metadata:
       labels:
         app: nginx
     spec:
       containers:
-             - name: nginx
+      - name: nginx
         image: nginx:1.7.9
         ports:
         - containerPort: 80
