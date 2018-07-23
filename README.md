@@ -80,3 +80,6 @@ kubectl -n kube-system describe secret $(kubectl -n kube-system get secret | gre
 ```
 
 * Access Kubernetes dashboard via browser and auth with admin token
+```
+https://services-apac.skytap.com:8432/
+```
